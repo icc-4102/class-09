@@ -1,6 +1,4 @@
-package com.example.clase08.model
-
-import androidx.room.ColumnInfo
+package com.example.clase09.model
 
 class CovidCaseEntityMapper : EntityMapper<CovidCaseEntity, CovidCaseModel> {
 

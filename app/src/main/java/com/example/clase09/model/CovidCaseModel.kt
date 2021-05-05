@@ -1,7 +1,6 @@
-package com.example.clase08.model
+package com.example.clase09.model
 
 import android.os.Parcelable
-import com.google.gson.annotations.SerializedName
 import kotlinx.parcelize.Parcelize
 
 @Parcelize

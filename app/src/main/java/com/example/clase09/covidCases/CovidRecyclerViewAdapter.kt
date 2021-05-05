@@ -1,15 +1,15 @@
-package com.example.clase08.covidCases
+package com.example.clase09.covidCases
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.clase08.CovidCase
-import com.example.clase08.IAdapterView
-import com.example.clase08.OnClickListener
-import com.example.clase08.R
-import com.example.clase08.model.CovidCaseModel
+import com.example.clase09.CovidCase
+import com.example.clase09.IAdapterView
+import com.example.clase09.OnClickListener
+import com.example.clase09.R
+import com.example.clase09.model.CovidCaseModel
 
 class CovidRecyclerViewAdapter(override val onClickListener: OnClickListener):
         RecyclerView.Adapter<CovidRecyclerViewAdapter.CovidViewHolder>(), IAdapterView {

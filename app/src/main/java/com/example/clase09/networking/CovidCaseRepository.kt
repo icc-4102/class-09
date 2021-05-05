@@ -1,9 +1,8 @@
-package com.example.clase08.networking
+package com.example.clase09.networking
 
-import com.example.clase08.model.CovidCaseModel
+import com.example.clase09.model.CovidCaseModel
 import retrofit2.Call
 import retrofit2.http.GET
-import retrofit2.http.Query
 
 interface CovidCaseRepository {
 

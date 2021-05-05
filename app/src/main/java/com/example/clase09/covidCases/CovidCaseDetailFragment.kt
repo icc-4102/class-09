@@ -1,4 +1,4 @@
-package com.example.clase08.covidCases
+package com.example.clase09.covidCases
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -11,7 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.setFragmentResult
 import androidx.lifecycle.Observer
-import com.example.clase08.R
+import com.example.clase09.R
 
 class CovidCaseDetailFragment : Fragment() {
 

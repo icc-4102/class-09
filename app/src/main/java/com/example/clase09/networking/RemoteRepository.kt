@@ -1,4 +1,4 @@
-package com.example.clase08.networking
+package com.example.clase09.networking
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -15,7 +15,7 @@ private fun makeLoggingInterceptor(isDebug: Boolean): HttpLoggingInterceptor {
         HttpLoggingInterceptor.Level.NONE
     return logging
 }
-
+//Este es el cliente que funciona por detras de retrofit
 private fun getOkClient(): OkHttpClient {
     return OkHttpClient()
             .newBuilder()
