@@ -1,4 +1,4 @@
-package com.example.clase08
+package com.example.clase09
 
 
 //Se define una interfaz que puede ser aplicada en cualquier Adapter

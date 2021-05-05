@@ -24,10 +24,10 @@ class CovidCaseDetailFragment : Fragment() {
         val view = inflater.inflate(R.layout.activity_covid_case_detail, container, false)
         viewModel.selectedCase.observe(viewLifecycleOwner, Observer {
             view.findViewById<TextView>(R.id.titleLabel).text =
-                    "Covid Case Detail from ${it.attributes?.Country_Region}"
-            view.findViewById<TextView>(R.id.deathLabel).text = "Deaths:  ${it.attributes?.Deaths}"
-            view.findViewById<TextView>(R.id.positiveLabel).text = "Active:  ${it.attributes?.Active}"
-            view.findViewById<TextView>(R.id.negativeLabel).text = "Recovered:  ${it.attributes?.Recovered}"
+                    "Covid Case Detail from ${it.country}"
+            view.findViewById<TextView>(R.id.deathLabel).text = "Deaths:  ${it.deaths}"
+            view.findViewById<TextView>(R.id.positiveLabel).text = "Active:  ${it.active}"
+            view.findViewById<TextView>(R.id.negativeLabel).text = "Recovered:  ${it.recovered}"
         })
         val favoriteButton  = view.findViewById<Button>(R.id.save_favorite_button)
         favoriteButton.setOnClickListener {
